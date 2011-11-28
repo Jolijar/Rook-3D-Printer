@@ -1,0 +1,16 @@
+// Rook 3D Printer Parts List
+// Created By Jeffrey Olijar 
+// Jolijar@gmail.com
+// Revision 1.00
+
+
+Printed Parts Needed
+2x	Rook_Z_Motor 
+2x	Rook_Z_Holder
+2x 	Rook_X_Rod_Holder
+1x	Rook_X_Motor
+1x	Rook_X_Idler
+4x	Rook_Y_Bearing
+
+Hardware
+4x	608 Skate Bearing
