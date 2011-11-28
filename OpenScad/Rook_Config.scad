@@ -1,7 +1,7 @@
 // Rook 3D Printer Configuration
 // Created By Jeffrey Olijar 
 // Jolijar@gmail.com
-// Revision 1.00
+// Revision 1.01
 
 
 // 608 skate bearing
@@ -27,3 +27,6 @@ LBI = 8;  // Inner Diameter
 //Makergear Groovemount
 GVO = 16.5; // Outside Diameter
 GVI = 12.5;  // Inside Groove Diameter
+
+// Distance Between Centers for X rods
+DBCX = 70;
