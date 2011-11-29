@@ -2,7 +2,7 @@
 // Rook Y Bearing
 // Created By Jeffrey Olijar 
 // Jolijar@gmail.com
-// Revision 1.01
+// Revision 1.02
 // 4 x required 
 
 include <Rook_Config.scad> 
@@ -12,6 +12,7 @@ module Rook_Y_Bearing(){
 
 difference(){ 
 	union(){
+
 		cylinder(h=20,r=LBD/2+3, center = true);
 		translate (v=[0,LBD/2+1.5,0]){ 
 			cube(size =[45,5,20], center = true); 
@@ -19,6 +20,9 @@ difference(){
 		}
 
 	union(){
+translate (v=[0,-LBD/2-1,0]){ 
+			cube(size =[20,5,25], center = true); 
+			}
 		cylinder(h=LBH,r=LBD/2, center = true);
 		translate (v=[0,-LBD/2,0]){ 
 			cube(size =[M8,M8,25], center = true); 
