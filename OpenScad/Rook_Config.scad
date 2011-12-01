@@ -13,6 +13,9 @@ Bearing_H = 7;
 // M3 Nut Diameter
 N3 = 7.5;
 
+// M3 Screw Hole Diameter
+M3 = 3;
+
 // M4 Screw Hole Diameter
 M4 = 4;
 
