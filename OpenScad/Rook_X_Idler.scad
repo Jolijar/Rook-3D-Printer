@@ -8,7 +8,6 @@
 include <Rook_Config.scad> 
 
 
-
 module Rook_X_Idler(){
 translate(v=[0,30,8+LH]){ 
 cube(size = [LBD+4,20,LH], center = true);
