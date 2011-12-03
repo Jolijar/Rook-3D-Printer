@@ -2,7 +2,7 @@
 // Rook_Y_Idler
 // Created By Jeffrey Olijar 
 // Jolijar@gmail.com
-// Revision 1.00
+// Revision 1.01
 // 1 x required 
 
 include <Rook_Config.scad> 
@@ -20,9 +20,9 @@ translate (v=[0,-27.5,0]){
 rotate(a=[0,0,30])translate (v=[-16,0,0]){
 difference(){ 
 union(){
-	cylinder(h=5,r=10, center = true);
+	cylinder(h=8,r=10, center = true);
 	translate (v=[0,-15,0]){ 
-		cube(size =[20,30,5], center = true); 
+		cube(size =[20,30,8], center = true); 
 
 }}
 union(){
