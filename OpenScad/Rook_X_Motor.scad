@@ -2,7 +2,7 @@
 // X Motor Holder
 // Created By Jeffrey Olijar 
 // Jolijar@gmail.com
-// Revision 1.01
+// Revision 1.02
 // 1 x required 
 
 include <Rook_Config.scad> 
@@ -55,16 +55,16 @@ cube(size = [M8,20,42], center = true);
 rotate(a=[0,90,0])translate(v=[0,63,0]){ 
 cylinder(h=43,r=12.5, center = true);
 translate(v=[15.5,15.5,0]){ 
-cylinder(h=20,r= M4/2);
+cylinder(h=20,r= M3/2);
 }
 translate(v=[15.5,-15.5,0]){
-cylinder(h=20,r=M4/2);
+cylinder(h=20,r=M3/2);
 }
 translate(v=[-15.5,15.5,0]){
-cylinder(h=20,r=M4/2);
+cylinder(h=20,r=M3/2);
 }
 translate(v=[-15.5,-15.5,0]){
-cylinder(h=20,r=M4/2);
+cylinder(h=20,r=M3/2);
 }
 translate(v=[10,-48,-20]){
 cylinder(h=50,r=M4/2);
@@ -73,10 +73,10 @@ translate(v=[-10,-48,-20]){
 cylinder(h=50,r=M4/2);
 }
 translate(v=[10,-48,-32]){
-cylinder(h=50,r=N3/2,$fn=6, center = true);
+cylinder(h=50,r=N4/2,$fn=6, center = true);
 }
 translate(v=[-10,-48,-32]){
-cylinder(h=50,r=N3/2,$fn=6, center = true);
+cylinder(h=50,r=N4/2,$fn=6, center = true);
 }
 }
 
