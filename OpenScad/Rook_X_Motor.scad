@@ -2,7 +2,7 @@
 // X Motor Holder
 // Created By Jeffrey Olijar 
 // Jolijar@gmail.com
-// Revision 1.00
+// Revision 1.01
 // 1 x required 
 
 include <Rook_Config.scad> 
@@ -93,6 +93,10 @@ cube(size = [20,25.5,42], center = true);
 
 
 
+// LM8UU Entry Cone 
+translate(v=[0,0,20]){ 
+cylinder(h=5,r1=LBD/2, r2=LBD/2+1.5, center = true);
+}
 
 
 

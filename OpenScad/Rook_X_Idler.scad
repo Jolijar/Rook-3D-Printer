@@ -85,27 +85,7 @@ cylinder(h=50,r=N4/2,$fn=6, center = true);
 translate(v=[20,15,0]){ 
 cube(size = [20,25.25,42], center = true);
 }
-// radius
-rotate(a=[0,-90,0])translate(v=[-13,50.5,-10]){ 
 
-difference(){ 
-union(){
-
-
-cube(size = [16,16,20], center = true);
-}
-
-union(){
-cylinder(h=43,r=8, center = true);
-translate(v=[0,-8,0]){ 
-cube(size = [16,16,20], center = true);
-}
-translate(v=[8,0,0]){ 
-cube(size = [16,16,20], center = true);
-}
-}
-}
-}
 // radius
 rotate(a=[0,90,0])translate(v=[0.5,50.5,10]){ 
 
@@ -130,11 +110,11 @@ cube(size = [16,16,20], center = true);
 
 // LM8UU Entry Cone
 translate(v=[0,0,20]){ 
-cylinder(h=5,r1=LBD/2+0.25, r2=LBD/2+1.5, center = true);
+cylinder(h=5,r1=LBD/2, r2=LBD/2+1.5, center = true);
 }
 
 
-	cylinder(h=43,r=LBD/2+0.25, center = true);
+	cylinder(h=43,r=LBD/2, center = true);
 translate(v=[0,30,0]){ 
 		cylinder(h=43,r=N8/2,$fn=6, center = true);
 }

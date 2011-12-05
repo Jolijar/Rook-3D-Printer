@@ -2,7 +2,7 @@
 // X Rod Holder
 // Created By Jeffrey Olijar 
 // Jolijar@gmail.com
-// Revision 1.01
+// Revision 1.02
 // 2 x required 
 
 include <Rook_Config.scad> 
@@ -17,15 +17,17 @@ module Rook_X_Rod_Holder(){
 difference(){ 
 union(){
 
-	translate (v=[DBCX/2,-M8/2+1.5,0]){ 
-		cube(size =[DBCX,8,25], center = true); 
+	translate (v=[DBCX/2,0,0]){ 
+		cube(size =[DBCX,M8+5,25], center = true); 
 		}
 	cylinder(h=25,r=M8/2+2.5, center = true);
 	translate (v=[DBCX,0,0]){ 
 		cylinder(h=25,r=M8/2+2.5, center = true);
 }}
 union(){
-
+translate (v=[DBCX/2,-6.5,0]){ 
+		cube(size =[42,3,42], center = true); 
+		}
 rotate(a=[90,0,0])translate(v=[DBCX/2,0,0]){ 
 
 translate(v=[10,0,-20]){
