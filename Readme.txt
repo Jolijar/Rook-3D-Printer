@@ -2,11 +2,7 @@
 // Created By Jeffrey Olijar 
 // Jolijar@gmail.com
 
-This 3D printer is designed to use 20mm Misumi aluminum extruded rails.  By using these rails instead of the traditional 
-threaded rod frame the printer will be simpler to construct and calibrate.  It will also be expandable, simply buy the 
-lengths you need for the build area you want (within reason)  I am shooting for a default value of 12" x 12" x 8" thats 
-305x305x204mm for you metric folks.  I suppose you could go bigger at the cost of rigidness I plan on testing this on a 
-later date.
+This 3D printer is designed to use 20mm Misumi aluminum extruded rails.  By using these rails instead of the traditional threaded rod frame the printer will be simpler to construct and calibrate.  It will also be expandable, simply buy the lengths you need for the build area you want (within reason)  I am shooting for a default value of 12" x 12" x 8" thats 305x305x204mm for you metric folks.  I suppose you could go bigger at the cost of rigidness I plan on testing this on a later date.
 
 Rook 3D Printer Feature List
 -Simple Design
