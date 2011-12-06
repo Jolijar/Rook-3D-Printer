@@ -6,7 +6,7 @@
 LH = 0.38;
 
 // 608 skate bearing
-Bearing_OD = 22.5; 
+Bearing_OD = 23; 
 Bearing_ID = 8;
 Bearing_H = 7;
 
@@ -14,14 +14,14 @@ Bearing_H = 7;
 N3 = 7.5;
 
 // M3 Screw Hole Diameter
-M3 = 3.5;
+M3 = 3.75;
 
 // M4 Screw Hole Diameter
 M4 = 5.25;
 N4 = 9;
 
 // M5 Screw Hole Diameter
-M5 = 5.4;
+M5 = 5.5;
 
 // M8 Rod Diameter (configure for a tight fit)
 M8 = 8.2;

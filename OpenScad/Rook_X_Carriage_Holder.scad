@@ -36,11 +36,11 @@ translate (v=[0,0.5,0]){
 		cylinder(h=25,r=LBD/2+3, center = true);
 }}
 union(){
-translate (v=[DBCX/2+8,-9,6.25]){ 
-		cube(size =[5,10,12.5], center = true); 
+translate (v=[DBCX/2+7.9,-9,6.25]){ 
+		cube(size =[6,10,12.5], center = true); 
 		}
-translate (v=[DBCX/2+8,9,6.25]){ 
-		cube(size =[5,10,12.5], center = true); 
+translate (v=[DBCX/2+7.9,9,6.25]){ 
+		cube(size =[6,10,12.5], center = true); 
 		}
 
 
@@ -52,12 +52,24 @@ rotate(a=[90,90,0])translate(v=[0,43,0]){
 translate(v=[8,0,-DBCX/4]){
 cylinder(h=DBCX/2,r=M3/2);
 }
+translate(v=[8,0,-DBCX/4]){
+cylinder(h=10,r=M5/2);
+}
 translate(v=[-8,0,-DBCX/4]){
 cylinder(h=DBCX/2,r=M4/2);
 }}
 
 
-
+rotate(a=[180,0,0]){
+// LM8UU Entry Cone 
+translate(v=[0,-0.5,12]){ 
+cylinder(h=2.5,r1=LBD/2, r2=LBD/2+1.5, center = true);
+}
+// LM8UU Entry Cone 
+translate(v=[DBCX,-0.5,12]){ 
+cylinder(h=2.5,r1=LBD/2, r2=LBD/2+1.5, center = true);
+}
+}
 
 
 rotate(a=[90,0,0])translate(v=[DBCX/2,0,0]){ 
