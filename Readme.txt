@@ -8,8 +8,7 @@ Rook 3D Printer Feature List
 -Simple Design
 -Ease of Construction
 -Configurable Build Area
--Interchangeable Toolheads (The carriage has two vertical holes 36mm apart that are used for mounting toolheads.  The toolhead are held 
- to the carriage by 2x M5 Screws and thumbscrews.)
+-Interchangeable Toolheads (The carriage has two vertical holes 36mm apart that are used for mounting toolheads.  The toolhead are held to the carriage by 2x M5 Screws and thumbscrews.)
 -Pen Plotter
 -Single Extruder(Under Heavy Development) 
 -Dual Extruder 	(In Work)
