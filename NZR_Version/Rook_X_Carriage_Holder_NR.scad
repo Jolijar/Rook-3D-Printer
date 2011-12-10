@@ -9,7 +9,7 @@ include <Rook_Config.scad>
 
 module Rook_X_Carriage_Holder(){
 
-
+DBCX = 55;
 
 rotate(a=[180,0,0]){
 
@@ -49,13 +49,13 @@ translate (v=[DBCX/2+7.9,9,6.25]){
 
 rotate(a=[90,90,0])translate(v=[0,43,0]){ 
 
-translate(v=[8,0,-DBCX/4]){
+translate(v=[8,-8,-DBCX/4]){
 cylinder(h=DBCX/2,r=M3/2);
 }
-translate(v=[8,0,-DBCX/4]){
+translate(v=[8,-8,-DBCX/3.25]){
 cylinder(h=10,r=6.5/2);
 }
-translate(v=[-8,0,-DBCX/4]){
+translate(v=[-8,-7.5,-DBCX/4]){
 cylinder(h=DBCX/2,r=M4/2);
 }}
 
@@ -74,10 +74,10 @@ cylinder(h=2.5,r1=LBD/2, r2=LBD/2+1.5, center = true);
 
 rotate(a=[90,0,0])translate(v=[DBCX/2,0,0]){ 
 
-translate(v=[18,0,-20]){
+translate(v=[16,0,-20]){
 cylinder(h=50,r=M4/2);
 }
-translate(v=[-18,0,-20]){
+translate(v=[-16,0,-20]){
 cylinder(h=50,r=M4/2);
 }}
 translate(v=[0,0.5,0]){

@@ -14,6 +14,9 @@ Rook 3D Printer Feature List
 -Dual Extruder 	(In Work)
 -PCB Router	(In Work)
 
+Created NZR version (No Z Rod)
+It is still being tested but it uses the misumi rail to hold the axis instead of a smooth rod... this elimantates the smooth rods from the z axis as well as 2 LM8UU bearings...  Initial tests are promising going to post a video as soon as I finish printing off the test axis...
+
 This is still a work in progress...
 Feel free to follow along at my blog...  http://printingdreams.blogspot.com/
 or to contribute...
